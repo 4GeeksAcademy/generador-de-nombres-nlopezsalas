@@ -1,11 +1,10 @@
-console.log("GENERADOR DE NOMBERES DE DOMINIOS");
-console.log("---------------------------------");
-
 let pronoun = ['the', 'our'];
 let adj = ['great', 'big'];
 let noun = ['jogger', 'racoon'];
 let domain = ['.com', '.net', '.us', '.io'];
 
+console.log("GENERADOR DE NOMBERES DE DOMINIOS");
+console.log("---------------------------------");
 for (let i=0; i < pronoun.length; i++) {
     for (let j=0; j < adj.length; j++) {
         for (let k=0; k< noun.length; k++) {
@@ -29,7 +28,6 @@ for (let i=0; i < pronoun.length; i++) {
 console.log ("");
 console.log("DOMAIN HACKS");
 console.log("-----------------------------------------------");
-
 for (let i = 0; i < pronoun.length; i++) {
     for (let j = 0; j < adj.length; j++) {
         let domainCrack = [];
